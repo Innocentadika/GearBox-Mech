@@ -7,7 +7,7 @@ import Navbar from '../Navbar/Navbar';
 import Team from '../Team/Team.component';
 
 const Loarder = () => {
-
+ 
   return (
     <div className='min-h-screen'>
       <Navbar />
@@ -42,7 +42,7 @@ const Loarder = () => {
 <Link to=''>Terms</Link>
 </div>
         </div>
-        <div className='pl-96 max-xl:pl-0 sm:pl-56'>Back to top</div>
+        <div className='pl-96 max-xl:pl-0 sm:pl-56' onClick={''}>Back to top</div>
       </div>
     </div>
 
