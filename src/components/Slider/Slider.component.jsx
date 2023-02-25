@@ -4,9 +4,8 @@ import 'react-slideshow-image/dist/styles.css'
 import slideImages from './dataSlide'
 
 const spanStyle = {
-  padding: '20px',
-  background: '#efefef',
-  color: '#000000'
+  padding: '10px',
+  color: 'white'
 }
 
 const divStyle = {
@@ -14,7 +13,8 @@ const divStyle = {
   alignItems: 'center',
   justifyContent: 'center',
   backgroundSize: 'cover',
-  height: '400px',
+  height: '300px',
+  
 
 }
 
@@ -25,7 +25,7 @@ const Slideshow = () => {
         <Slide>
          {slideImages.map((slideImage, index)=> (
             <div key={index}>
-              <div style={{ ...divStyle, 'backgroundImage': `${slideImage.image}` }}>
+              <div style={{ ...divStyle, 'backgroundImage': `url(${slideImage.image})` }}>
                 <span style={spanStyle}>{slideImage.caption}</span>
               </div>
             </div>
