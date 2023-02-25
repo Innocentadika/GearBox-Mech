@@ -7,38 +7,38 @@ import Pic7 from '../assets/7.png'
 import Pic8 from '../assets/8.png'
 import cover from '../assets/cover.png'
 
-export const slideImages = [
+const slideImages = [
     {
       image: Picture,
       caption: 'Slide 1'
     },
     {
         image: Pic3,
-        caption: 'Slide 2'
+        caption: 'Priscilah comes from Zetech university'
       },
       {
         image: Pic4,
-        caption: 'Slide 4'
+        caption: 'Slide 3'
       },
       {
         image: Pic5,
-        caption: 'Slide 5'
+        caption: 'Slide 4'
       },
       {
         image: Pic6,
-        caption: 'Slide 6'
+        caption: 'Slide 5'
       },
       {
         image: Pic7,
-        caption: 'Slide 7'
+        caption: 'Slide 6'
       },
       {
         image: Pic8,
-        caption: 'Slide 8'
+        caption: 'Slide 7'
       },
       {
         image: cover,
-        caption: 'Slide 9'
+        caption: 'Slide 8'
       },
   ];
   export default slideImages;

@@ -5,7 +5,8 @@ import Slideshow from '../Slider/Slider.component';
 import { Link } from 'react-router-dom';
 import Navbar from '../Navbar/Navbar';
 import Team from '../Team/Team.component';
-
+// import { FaChevronCircleUp } from 'react-icons/fa'
+import ScrollToTop from "react-scroll-to-top";
 const Loarder = () => {
  
   return (
@@ -16,7 +17,7 @@ const Loarder = () => {
         {' '}
         <span style={{ color: 'red', fontWeight: 'bold', fontFamily: 'sansf'}}>
           <Typewriter
-            words={['Learn', 'Perfect', 'Engineer', 'Repeat!']}
+            words={['Learn', 'Perfect', 'Engineer@', 'Nachimo']}
             loop={100}
             cursor
             cursorStyle='|'
@@ -26,7 +27,7 @@ const Loarder = () => {
             
           />
         </span>
-        GearBox
+        Engineering Works
       </h1>
     </div>
       <>
@@ -36,13 +37,13 @@ const Loarder = () => {
       </>
       <div className='flex space-x-96  font-sans items-center text-center border-gray-600 border p-1 pt-4 pb-2 max-xl:space-x-1'>
         <div className='flex space-x-1 pl-8 max-xl:pl-1'>
-<span>2017-2023 Company, Inc.</span>
+<span className='text-gray-900'>©2017-2023 Company, Inc.</span>
 <div className='text-blue-600 space-x-2'>
 <Link to=''>Privacy</Link>
 <Link to=''>Terms</Link>
 </div>
         </div>
-        <div className='pl-96 max-xl:pl-0 sm:pl-56' onClick={''}>Back to top</div>
+        <div className='pl-96 text-xl max-xl:pl-0 sm:pl-56'><ScrollToTop/></div>
       </div>
     </div>
 

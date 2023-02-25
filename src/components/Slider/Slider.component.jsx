@@ -14,11 +14,13 @@ const divStyle = {
   alignItems: 'center',
   justifyContent: 'center',
   backgroundSize: 'cover',
-  height: '400px'
+  height: '400px',
+
 }
 
 const Slideshow = () => {
     return (
+
       <div className="slide-container">
         <Slide>
          {slideImages.map((slideImage, index)=> (
