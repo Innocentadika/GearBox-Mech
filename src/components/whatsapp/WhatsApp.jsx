@@ -22,14 +22,14 @@ const Socials = () => {
     
     <div className='min-h-screen  bg-slate-200 items-center justify-center '>
       <div><Navbar /></div>
-        <div className='text-center text-neutral-800 font-serif text-xl pt-8'>
+        <div className='text-center text-neutral-800 font-serif text-xl pt-2'>
           <p className='text-xl italic font-bold p-2'>Nachimo .E. Works</p>
 <p>Thank you for reaching out to us.</p>
         </div>
         
     <div className='flex p-3 pt-8 space-x-4 text-center justify-center'>
-    <button onClick={handleClick}className='bg-green-600 py-2 px-4 rounded w-56 h-14 flex'><FaWhatsapp size={30} class='ml-2 text-white '/><h2 className=' text-center text-base pl-2 text-white font-bold '>Whatsapp Us</h2></button>
-    <button onClick={handleClickAgain}className='bg-blue-600 py-2 px-4 rounded items-center w-56 h-14 flex'><FaFacebook class='ml-2 text-white text-3xl '/><h2 className='text-center text-base pl-2 text-white font-bold'>Facebook</h2></button>
+    <button style={{width:200, height:50}} onClick={handleClick}className='bg-green-600 py-2 px-4 rounded  flex'><FaWhatsapp size={30} class='ml-2 text-white '/><h2 className=' text-center text-base pl-2 text-white font-bold '>Whatsapp Us</h2></button>
+    <button style={{width:200, height:50}} onClick={handleClickAgain}className='bg-blue-600 py-2 px-4 rounded items-center  flex'><FaFacebook class='ml-2 text-white text-3xl '/><h2 className='text-center text-base pl-2 text-white font-bold'>Facebook</h2></button>
       </div>
       <div className=' lg:pl-28 lg:animate-spin lg:scale-75'>
         <img className=' max-xl:scale-50 rounded max-xl:animate-spin  lg:ml-96 lg:h-96' src={cover} alt="cover" />

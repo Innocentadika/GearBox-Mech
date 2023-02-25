@@ -1,10 +1,10 @@
 import Picture from '../assets/2.png'
-import Pic3 from '../assets/3.png'
-import Pic4 from '../assets/4.png'
-import Pic5 from '../assets/5.png'
-import Pic6 from '../assets/6.png'
-import Pic7 from '../assets/7.png'
-import Pic8 from '../assets/8.png'
+import metalic2 from '../assets/metalic2.png'
+import metalic3 from '../assets/metalic3.png'
+import metalic4 from '../assets/metalic4.png'
+import metalic5 from '../assets/metalic5.png'
+import metalic6 from '../assets/metalic6.png'
+import metalic8 from '../assets/metalic8.png'
 import cover from '../assets/cover.png'
 
 const slideImages = [
@@ -13,27 +13,27 @@ const slideImages = [
       caption: 'Slide 1'
     },
     {
-        image: Pic3,
-        caption: 'Priscilah comes from Zetech university'
+        image: metalic2,
+        caption: 'Slide 2'
       },
       {
-        image: Pic4,
+        image: metalic3,
         caption: 'Slide 3'
       },
       {
-        image: Pic5,
+        image: metalic4,
         caption: 'Slide 4'
       },
       {
-        image: Pic6,
+        image: metalic5,
         caption: 'Slide 5'
       },
       {
-        image: Pic7,
+        image: metalic6,
         caption: 'Slide 6'
       },
       {
-        image: Pic8,
+        image: metalic8,
         caption: 'Slide 7'
       },
       {
