@@ -5,6 +5,7 @@ import slideImages from './dataSlide'
 
 const spanStyle = {
   padding: '10px',
+  fontWeight: 'bold', 
   color: 'white'
 }
 

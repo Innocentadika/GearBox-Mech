@@ -13,7 +13,7 @@ const Loarder = () => {
     <div className='min-h-screen'>
       <Navbar />
     <div className='justify-center text-2xl text-center items-center'>
-      <h1 style={{ paddingTop: '0.1rem', paddingBottom: '1rem', margin: 'auto 0', fontWeight: 'normal' }}>
+      <h1 style={{ paddingTop: '1rem', paddingBottom: '1rem', margin: 'auto 0', fontWeight: 'normal' }}>
         {' '}
         <span style={{ color: 'red', fontWeight: 'bold', fontFamily: 'sansf'}}>
           <Typewriter
