@@ -31,8 +31,8 @@ const Socials = () => {
     <button style={{width:200, height:50}} onClick={handleClick}className='bg-green-600 py-2 px-4 rounded  flex'><FaWhatsapp size={30} class='ml-2 text-white '/><h2 className=' text-center text-base pl-2 text-white font-bold '>Whatsapp Us</h2></button>
     <button style={{width:200, height:50}} onClick={handleClickAgain}className='bg-blue-600 py-2 px-4 rounded items-center  flex'><FaFacebook class='ml-2 text-white text-3xl '/><h2 className='text-center text-base pl-2 text-white font-bold'>Facebook</h2></button>
       </div>
-      <div className=' lg:pl-28 lg:animate-spin lg:scale-75'>
-        <img className=' max-xl:scale-50 rounded max-xl:animate-spin  lg:ml-96 lg:h-96' src={cover} alt="cover" />
+      <div className=' lg:pl-16  lg:scale-75'>
+        <img className=' max-xl:scale-50 rounded animate-spin  lg:ml-96 lg:h-96' src={cover} alt="cover" />
       </div>
       <p className='text-xl italic font-bold p-6 text-green-800 font-serif text-center'>Empowering Local Industry</p>
       <p className='text-3xl italic font-extrabold p-2 text-center animate-bounce z-50'><span>K</span><span className='text-red-600'>E</span><span className='text-green-700'>N</span><span className='text-red-600'>Y</span><span>A</span></p>

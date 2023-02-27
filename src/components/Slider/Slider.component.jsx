@@ -14,9 +14,8 @@ const divStyle = {
   alignItems: 'center',
   justifyContent: 'center',
   backgroundSize: 'cover',
-  height: '300px',
+  height: 300
   
-
 }
 
 const Slideshow = () => {

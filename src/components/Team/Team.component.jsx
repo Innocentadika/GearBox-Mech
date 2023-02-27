@@ -9,7 +9,7 @@ const Team = () => {
     <div>
       <div className='flex-col p-2  space-y-2 bg-zinc-900 text-sm xl:text-lg'>
         <div className='flex space-x-6 rounded  bg-slate-100  '>
-        <div className='xl:p-10'>
+        <div className='xl:p-10 sm:p-8'>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eu sed suspendisse in pulvinar. Amet, amet, eleifend lacinia consectetur. In.</p>
       
         </div>
@@ -22,13 +22,13 @@ const Team = () => {
         <div>
         <img style={{width: 900}} className='rounded xl:h-96' src={Metal9} alt="description1" />
         </div>
-        <div className='xl:p-10'>
+        <div className='xl:p-10 sm:p-8'>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eu sed suspendisse in pulvinar. Amet, amet, eleifend lacinia consectetur. In.</p>
         </div>
         </div>
 
         <div className='flex space-x-6 rounded  bg-slate-100 '>
-        <div className='xl:p-10'>
+        <div className='xl:p-10 sm:p-8'>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eu sed suspendisse in pulvinar. Amet, amet, eleifend lacinia consectetur. In.</p>
         </div>
         <div>
@@ -40,7 +40,7 @@ const Team = () => {
         <div>
         <img style={{width: 900}}  className='rounded' src={Metalic7} alt="description1" />
         </div>
-        <div className='xl:p-10'>
+        <div className='xl:p-10 sm:p-8'>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eu sed suspendisse in pulvinar. Amet, amet, eleifend lacinia consectetur. In.</p>
         </div>
         </div>

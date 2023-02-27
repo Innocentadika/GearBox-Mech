@@ -5,7 +5,6 @@ import Slideshow from '../Slider/Slider.component';
 import { Link } from 'react-router-dom';
 import Navbar from '../Navbar/Navbar';
 import Team from '../Team/Team.component';
-// import { FaChevronCircleUp } from 'react-icons/fa'
 import ScrollToTop from "react-scroll-to-top";
 const Loarder = () => {
  
