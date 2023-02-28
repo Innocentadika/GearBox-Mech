@@ -1,6 +1,6 @@
 import React from 'react'
 import Metalic8 from '../assets/metalic8.png'
-import Metal9 from '../assets/9.png'
+import Metal9 from '../assets/metalic9.png'
 import Metal2 from '../assets/2.png'
 import Metalic7 from '../assets/metalic7.png'
 
@@ -10,7 +10,8 @@ const Team = () => {
       <div className='flex-col p-2  space-y-2 bg-zinc-900 text-sm xl:text-lg'>
         <div className='flex space-x-6 rounded  bg-slate-100  '>
         <div className='xl:p-10 sm:p-8'>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eu sed suspendisse in pulvinar. Amet, amet, eleifend lacinia consectetur. In.</p>
+        <p>Customized mobile stand design based on your preferences.
+We are here to help you with all your metal fabrication and powder coating needs</p>
       
         </div>
         <div >
@@ -23,7 +24,7 @@ const Team = () => {
         <img style={{width: 900}} className='rounded xl:h-96' src={Metal9} alt="description1" />
         </div>
         <div className='xl:p-10 sm:p-8'>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eu sed suspendisse in pulvinar. Amet, amet, eleifend lacinia consectetur. In.</p>
+        <p>Secure your premises with our laser cut gates that are strong and durable to enhance your security.</p>
         </div>
         </div>
 
