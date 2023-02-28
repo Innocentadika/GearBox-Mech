@@ -34,8 +34,8 @@ const Clientshow = () => {
             </div>
           ))} 
         </Slide>
-        <p className='text-green-500 text-center font-serif lg:text-lg sm:text-base'>Welcome  to Nachimo .E. Works</p>
-        <p className='text-center font-serif lg:text-lg sm:text-base'>Located: <span className='text-blue-300 italic'>Industrial Area.</span></p>
+        <p className='text-green-500 text-center font-serif lg:text-lg sm:text-base'>Welcome  to Nachimo .E. Works<span>&#128075;</span></p>
+        <p className='text-center font-serif lg:text-lg sm:text-base'>Located: <span className='text-blue-300 italic'>Industrial Area <span className='text-orange-400 text-2xl'>&#128739;</span> Butere Road.</span></p>
       </div>
     )
 }

@@ -1,5 +1,6 @@
 import React from 'react'
 import cover from '../assets/cover.png'
+import Service from '../assets/service.png'
 import { useState } from 'react'
 import dataMore from './dataMore'
 import Clientshow from '../Client/Client'
@@ -42,7 +43,7 @@ const Pager = () => {
 
       <div className='items-center text-left justify-center'>
         <div className='items-center justify-center max-lg:scale-75 lg:scale-75'>
-        <img className='rounded-l-full rounded-r-full text-center' src={cover} alt="crown1" />
+        <img className='rounded-l-full rounded-r-full text-center' src={Service} alt="crown1" />
         </div>
         <p className='text-lg text-center font-bold text-gray-500 pb-1'>Services</p>
 <div className='flex-col py-1'>

@@ -10,35 +10,35 @@ import cover from '../assets/cover.png'
 const slideImages = [
     {
       image: Picture,
-      caption: 'Slide 1'
+      caption: 'Pattern cut on Laser'
     },
     {
         image: metalic2,
-        caption: 'Slide 2'
+        caption: 'Final Product ready to deliver'
       },
       {
         image: metalic3,
-        caption: 'Slide 3'
+        caption: 'Grinding Works'
       },
       {
         image: metalic4,
-        caption: 'Slide 4'
+        caption: 'Grinding stainless tube'
       },
       {
         image: metalic5,
-        caption: 'Slide 5'
+        caption: 'Bulcony ready for installation'
       },
       {
         image: metalic6,
-        caption: 'Slide 6'
+        caption: 'Laser at work'
       },
       {
         image: metalic8,
-        caption: 'Slide 7'
+        caption: 'Mobile stand'
       },
       {
         image: cover,
-        caption: 'Slide 8'
+        caption: 'Pattern Cut'
       },
   ];
   export default slideImages;
