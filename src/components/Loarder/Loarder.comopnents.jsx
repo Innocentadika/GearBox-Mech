@@ -14,7 +14,7 @@ const Loarder = () => {
     <div className='justify-center text-2xl text-center items-center'>
       <h1 style={{ paddingTop: '1rem', paddingBottom: '1rem', margin: 'auto 0', fontWeight: 'normal' }}>
         {' '}
-        <span style={{ color: 'red', fontWeight: 'bold', fontFamily: 'sansf'}}>
+        <span style={{ color: 'gray', fontWeight: 'bold', fontFamily: 'sansf'}}>
           <Typewriter
             words={['Learn', 'Perfect', 'Engineer@', 'Nachimo']}
             loop={100}
