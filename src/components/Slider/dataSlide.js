@@ -6,6 +6,7 @@ import metalic5 from '../assets/metalic5.png'
 import metalic6 from '../assets/metalic6.png'
 import metalic8 from '../assets/metalic8.png'
 import cover from '../assets/cover.png'
+import cover2 from '../assets/4.png'
 
 const slideImages = [
     {
@@ -39,6 +40,10 @@ const slideImages = [
       {
         image: cover,
         caption: 'Pattern Cut'
+      },
+      {
+        image: cover2,
+        caption: 'Coridoor Gate'
       },
   ];
   export default slideImages;

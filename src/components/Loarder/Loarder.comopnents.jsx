@@ -40,6 +40,7 @@ const Loarder = () => {
 <div className='text-blue-600 space-x-2'>
 <Link to=''>Privacy</Link>
 <Link to=''>Terms</Link>
+<a href='https://github.com/Innocentadika'>github</a>
 </div>
         </div>
         <div className='pl-96 text-xl max-xl:pl-0 sm:pl-56'><ScrollToTop/></div>

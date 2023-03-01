@@ -12,11 +12,6 @@ const Socials = () => {
         window.open(waUrl);
     };
 
-    const handleClickAgain = () => {
-      const faUrl = `https://www.facebook.com/profile.php?id=100089637483861`;
-      window.open(faUrl);
-      
-  };
   return (
     <>
     
@@ -29,7 +24,7 @@ const Socials = () => {
         
     <div className='flex p-3 pt-8 space-x-4 text-center justify-center'>
     <button style={{width:200, height:50}} onClick={handleClick}className='bg-green-600 py-2 px-4 rounded  flex'><FaWhatsapp size={30} class='ml-2 text-white '/><h2 className=' text-center text-base pl-2 text-white font-bold '>Whatsapp Us</h2></button>
-    <button style={{width:200, height:50}} onClick={handleClickAgain}className='bg-blue-600 py-2 px-4 rounded items-center  flex'><FaFacebook class='ml-2 text-white text-3xl '/><h2 className='text-center text-base pl-2 text-white font-bold'>Facebook</h2></button>
+    <a href='https://www.facebook.com/profile.php?id=100089637483861'><button style={{width:200, height:50}} className='bg-blue-600 py-2 px-4 rounded items-center  flex'><FaFacebook class='ml-2 text-white text-3xl '/><h2 className='text-center text-base pl-2 text-white font-bold'>Facebook</h2></button></a>
       </div>
       <div className=' lg:pl-16  lg:scale-75'>
         <img className=' max-xl:scale-50 rounded animate-spin  lg:ml-96 lg:h-96' src={cover} alt="cover" />

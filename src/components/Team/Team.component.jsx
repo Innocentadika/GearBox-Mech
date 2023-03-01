@@ -1,5 +1,6 @@
 import React from 'react'
 import Metalic8 from '../assets/metalic8.png'
+import Metalic5 from '../assets/metalic5.png'
 import Metal9 from '../assets/metalic9.png'
 import Metal2 from '../assets/2.png'
 import Metalic7 from '../assets/metalic7.png'
@@ -43,6 +44,17 @@ We are here to help you with all your metal fabrication and powder coating needs
         </div>
         <div className='xl:p-10 sm:p-8'>
         <p>The sense of arrival continues to be important at home entrances. Often, it can serve as an introduction for both owners and visitors and can play a huge role in their first impression. Our laser cut panels make a bold statement as balustrades in homes, schools, restaurants and many more.</p>
+        </div>
+        </div>
+
+        <div className='flex space-x-6 rounded  bg-slate-100  '>
+        <div className='xl:p-10 sm:p-8'>
+        <p>Customed bulcony standline design based on your preferences.
+We are here to help you with all your metal fabrication and powder coating needs.</p>
+      
+        </div>
+        <div >
+        <img style={{width: 900}} className='rounded xl:h-72 xl:w-96' src={Metalic5} alt="description1" />
         </div>
         </div>
 
