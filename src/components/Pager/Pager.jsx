@@ -1,5 +1,5 @@
 import React from 'react'
-import work from '../assets/production.png'
+import work from '../assets/cover.png'
 import client from '../assets/production.png'
 import Service from '../assets/service.png'
 import { useState } from 'react'
