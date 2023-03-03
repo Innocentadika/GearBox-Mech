@@ -45,6 +45,7 @@ We've created a novel product concept that gives you a selection of premium mate
 
         <div className='xl:p-10 sm:p-8 max-xl:px-2'>
         <p>Our gates are built to enhance your property's beautification and security. The patterns are designed according to your needs. Nachimo Engineers fabricate the doors, gates, grills, staircases and balconies from mild steel.</p>
+        <p>With our laser cutting machine, we increase stability and effectiveness. Every product that comes out of the machine is examined by our strong quality operators to ensure that it is clean and has fine cuts</p>
         </div>
         
         </div>
@@ -93,7 +94,7 @@ We are here to help you with all your metal fabrication and powder coating needs
         <img style={{width: 900}} className='rounded xl:h-72 xl:w-96' src={DoorA} alt="description1" />
         </div>
 
-        <div className='xl:p-8 sm:p-4 max-xl:px-4'>
+        <div className='xl:p-6 sm:p-4 max-xl:px-4'>
         <p>Bored of your outdated, uninteresting, and perhaps even rusted gate? <br /> We do, however, have the ideal answer for you! Astonishing Contemporary laser cut design pattern Metal Gate available for seeing. <br /> This bespoke gate is composed of powder-coated steel, which is strong and resistant to the elements. <br /> Moreover, it may be ordered in any color to precisely complement your house. And therefore no worries if you can't find a style you like! Any shape, size, or style can be altered by us to create the ideal aesthetic for your house. <br /> So don't hesitate any longer and use our incredible Decorative Metal Gate to revamp your house!</p>
         
       

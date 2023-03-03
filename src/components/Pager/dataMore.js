@@ -11,8 +11,8 @@ const dataMore = [
     message2: 'We offer delivery on door to door upon request at a discount of 50% within the Metropolitant. We also transport outside Nairobi at an agreable price depending on the purchase rate of our product.'
 },
 {
-    message3: 'Customer demand becomes our main priority and valuing the feedback for our services to you. Nachimo Engineering Works looks to ensuring only the best service of it all is offered to our clients.'
-}
+    message3: 'Our laser-cut products offer much more than just visual appeal; Nachimo objective is to be the top brand in our sector. Clients have acknowledged our product. They incorporate them into their exquisitely thought-out design concepts, continuously pushing the envelope of creativity and challenging the current quo.Our products have patterns that combine emotion with the best possible functionality.'
+},
 ];
 
 export default dataMore;

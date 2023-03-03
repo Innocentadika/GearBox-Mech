@@ -66,7 +66,7 @@ const Pager = () => {
         <img style={{width: 200}}  className='rounded-l-full rounded-r-full' src={client} alt="crown1" />
         </div>
         <p className='text-lg text-center font-bold text-gray-500 p-1'>Client</p>
-<p>Some representative placeholder content for the three columns of text below . <span>&#128075;</span> This section provides our location, <span className='italic text-green-400'>click view details</span>.</p>
+<p>Clients have acknowledged our product. <br /> They incorporate them into their exquisitely thought-out design concepts, continuously pushing the envelope of creativity and challenging the current quo.<span>&#128075;</span> This section provides our location, <span className='italic text-green-400'>click view details</span>.</p>
 <div className='pt-2 text-center '>
 <button className='bg-gray-700 rounded text-white text-sm h-8 lg:text-lg' onClick={handleClickMore}>View details &gt;&gt;</button>
 </div>
