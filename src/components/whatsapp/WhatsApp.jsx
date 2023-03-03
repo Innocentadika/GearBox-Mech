@@ -24,9 +24,9 @@ const Socials = () => {
 <p>Thank you for reaching out to us.</p>
 
 <div className='px-2  sm:px-36 lg:px-96'>
-<button style={{height:30}} className=' py-1 bg-slate-300 rounded items-center  flex'>
-<MdEmail size={30} className='text-orange-500' />
-<h2 className=' text-center text-base pl-1 text-slate-100 font-bold '>nachimoengineeringworks@gmail.com</h2>
+<button style={{height:30}} className=' py-1 bg-gray-100 rounded items-center  flex'>
+<MdEmail size={30} className='text-orange-400' />
+<h2 className=' text-center text-base text-slate-800 font-bold '>nachimoengineeringworks@gmail.com</h2>
 </button>
 </div>
         </div>
