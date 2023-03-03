@@ -1,8 +1,10 @@
 import React from 'react'
-import { FaWhatsapp } from 'react-icons/fa'
-import { FaFacebook } from 'react-icons/fa'
+import { FaWhatsapp, FaFacebook } from 'react-icons/fa'
+import { MdEmail } from 'react-icons/md'
 import cover from '../assets/cover.png'
 import Navbar from '../Navbar/Navbar'
+import Footer from '../Footer/Footer';
+
 
 const Socials = () => {
     
@@ -20,6 +22,13 @@ const Socials = () => {
         <div className='text-center text-neutral-800 font-serif text-xl pt-2'>
           <p className='text-xl italic font-bold p-2'>Nachimo .E. Works</p>
 <p>Thank you for reaching out to us.</p>
+
+<div className='px-2  sm:px-36 lg:px-96'>
+<button style={{height:30}} className=' py-1 bg-slate-300 rounded items-center  flex'>
+<MdEmail size={30} className='text-orange-500' />
+<h2 className=' text-center text-base pl-1 text-slate-100 font-bold '>nachimoengineeringworks@gmail.com</h2>
+</button>
+</div>
         </div>
         
     <div className='flex p-3 pt-8 space-x-4 text-center justify-center'>
@@ -31,7 +40,9 @@ const Socials = () => {
       </div>
       <p className='text-xl italic font-bold p-6 text-green-800 font-serif text-center'>Empowering Local Industry</p>
       <p className='text-3xl italic font-extrabold p-2 text-center animate-bounce z-50'><span>K</span><span className='text-red-600'>E</span><span className='text-green-700'>N</span><span className='text-red-600'>Y</span><span>A</span></p>
+      
     </div>
+    <div><Footer/></div>
     </>
   )
 }

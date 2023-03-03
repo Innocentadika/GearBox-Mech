@@ -5,6 +5,7 @@ import Service from '../assets/service.png'
 import { useState } from 'react'
 import dataMore from './dataMore'
 import Clientshow from '../Client/Client'
+import Serviceshow from '../Services/Services'
 
 
 
@@ -18,7 +19,7 @@ const Pager = () => {
       setMessage( <div>{dataMore.map((dataMore, index)=> ( <div key={index}><span>{dataMore.message1}</span></div>))} <div className='text-right'><button className=' rounded font-serif bg-red-600 w-auto lg:text-lg ' onClick={handleClickback}>close</button></div> </div> );
     }
     const handleClickAgain = () => {
-      setMessage( <div>{dataMore.map((dataMore, index)=> ( <div key={index}><span>{dataMore.message2}</span></div>))} <div className='text-right'><button className=' rounded font-serif bg-red-600 w-auto lg:text-lg ' onClick={handleClickback}>close</button></div> </div> );
+      setMessage( <div>{dataMore.map((dataMore, index)=> ( <div key={index}><span>{dataMore.message2}</span></div>))} <><Serviceshow/> </> <div className='text-right'><button className=' rounded font-serif bg-red-600 w-auto lg:text-lg ' onClick={handleClickback}>close</button></div> </div> );
     }
     const handleClickMore = () => {
       setMessage( <div>{dataMore.map((dataMore, index)=> ( <div key={index}><span>{dataMore.message3}</span></div>))} <><Clientshow /></> <div className='text-right'><button className=' rounded font-serif bg-red-600 w-auto lg:text-lg space-y-2' onClick={handleClickback}>close</button></div> </div> );
