@@ -3,6 +3,7 @@ import Service2 from '../assets/gatehook.png'
 import Service3 from '../assets/service.png'
 import Service4 from '../assets/metalic2.png'
 import Service5 from '../assets/hookers.png'
+import Service6 from '../assets/coated gate.png'
 
 
 const slideImages = [
@@ -32,8 +33,14 @@ const slideImages = [
       },
       {
         image: Service5,
-        caption: 'Pinning',
+        caption: 'Mounting',
         caption2: 'It is our desire and care ensuring customer product looks neat and colorful.',
+        
+      },
+      {
+        image: Service6,
+        caption: 'Coating',
+        caption2: 'Do you always want a change in color of your product. Here we work with your preferences.',
         
       },
   ];
