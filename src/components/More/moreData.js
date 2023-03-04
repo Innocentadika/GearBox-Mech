@@ -3,7 +3,7 @@ import BlackWall from '../assets/walldecor.png'
 import Wallhooker from '../assets/hookers.png'
 import Wallhook from '../assets/8.png'
 import Flowerhooker from '../assets/7.png'
-import GateC from '../assets/gateC.png'
+import GateC from '../assets/flowerdecor.png'
 const moreData = [
     {
     image: Skycraper,

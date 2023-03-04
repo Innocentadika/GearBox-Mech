@@ -14,7 +14,7 @@ const More = () => {
       <div className='container grid5 mtop'>
         {moreData.map((items, index) => (
             <div className='grow box'key={index}>
-              <img style={{height: 100, width: 800}} src={items.image } alt='' className=' px-10'/>
+              <img style={{height: 150, width: 800}} src={items.image } alt='' className=' px-10'/>
                 <h4>{items.title}</h4>
                 <label>{items.review}</label>
     </div>
